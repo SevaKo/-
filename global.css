@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --electrolux-mango-text: "Suisse Intl";
+
+  /* font sizes */
+  --electrolux-mango-text-size: 20px;
+  --electrolux-mango-h1-size: 200px;
+  --electrolux-mango-h3-size: 36px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-dodgerblue: #0085ff;
+  --color-gray: #262626;
+
+  /* Gaps */
+  --gap-base: 16px;
+
+  /* Paddings */
+  --padding-5xl: 24px;
+  --padding-3xs-4: 9.4px;
+  --padding-xl: 20px;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+}
