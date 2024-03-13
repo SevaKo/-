@@ -1,3 +1,28 @@
+button {
+  background-color: #00000000;
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  color: #fff;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: bold;
+
+  cursor: pointer;
+  font-family: var(--electrolux-mango-text);
+}
+
+a {
+  color: var(--color-dodgerblue);;
+  text-decoration: none;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
 .frame-child {
   position: absolute;
   top: 0;
@@ -49,11 +74,16 @@
   justify-content: flex-start;
   gap: 0 8.9px;
 }
-.div2 {
+.link {
   position: relative;
   line-height: 20px;
   font-weight: 600;
 }
+
+.link-header {
+  color: #262626;
+}
+
 .parent {
   display: flex;
   flex-direction: row;
@@ -144,9 +174,15 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.b1 {
+
+.title {
   align-self: stretch;
   position: relative;
+  line-height: 60px;
+}
+
+.subtitle {
+  font-size: 48px;
   line-height: 60px;
 }
 .electrolux-mango1 {
@@ -178,10 +214,14 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.div5,
+.docs-text,
 .pdf-100 {
   position: relative;
   line-height: 32px;
+}
+
+.docs-text {
+  color: #262626;
 }
 .pdf-100 {
   color: #969696;
